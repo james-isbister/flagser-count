@@ -75,7 +75,7 @@ class CMakeBuild(build_ext):
 
 setup(
     name='pyflagsercount',
-    version='0.4.0',
+    version='0.5.0',
     author='Jason P. Smith',
     author_email='jasonsmith.bath@gmail.com',
     description='A package for counting directed cliques in directed graphs',
