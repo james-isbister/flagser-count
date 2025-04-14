@@ -84,6 +84,6 @@ setup(
     ext_modules=[CMakeExtension('pyflagsercount')],
     cmdclass=dict(build_ext=CMakeBuild),
     packages=["pyflagsercount"],
-    install_requires=['numpy>=1.17.0','cmake>=2.8.12'],
+    install_requires=['numpy>=1.17.0','cmake>=3.10'],
     zip_safe=False,
 )
